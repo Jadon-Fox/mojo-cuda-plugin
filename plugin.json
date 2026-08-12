@@ -1,0 +1,20 @@
+{
+  "name": "mojo-cuda",
+  "version": "3.0.0",
+  "description": "Grok Build specialty: Mojo + CUDA + MLIR profile v3 (Mojo 1.0 / MAX 26.5, max.gpu, Ampere sm_86). Skills + agents + V3 host refs.",
+  "author": {
+    "name": "Jadon Fox",
+    "url": "https://github.com/Jadon-Fox"
+  },
+  "homepage": "https://github.com/Jadon-Fox/mojo-cuda-plugin",
+  "license": "MIT",
+  "keywords": [
+    "mojo",
+    "cuda",
+    "mlir",
+    "gpu",
+    "kernels",
+    "max",
+    "evidence"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "mojo-cuda",
+  "description": "Mojo + CUDA + MLIR specialty coding profile for Grok Build (skill + implement/review/entry agents).",
+  "category": "development",
+  "source": {
+    "source": "local",
+    "path": "/home/jfox/src/mojo-cuda-plugin"
+  },
+  "homepage": "https://github.com/Jadon-Fox/mojo-cuda-plugin",
+  "keywords": [
+    "mojo",
+    "cuda",
+    "mlir",
+    "gpu",
+    "kernels"
+  ],
+  "author": "Jadon Fox"
+}
