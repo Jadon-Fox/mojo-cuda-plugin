@@ -1,7 +1,7 @@
 {
   "name": "mojo-cuda",
-  "version": "3.0.0",
-  "description": "Grok Build specialty: Mojo + CUDA + MLIR profile v3 (Mojo 1.0 / MAX 26.5, max.gpu, Ampere sm_86). Skills + agents + V3 host refs.",
+  "version": "3.1.0",
+  "description": "Grok Build specialty: Mojo + CUDA + MLIR profile v3 (Mojo 1.0 / MAX 26.5, max.gpu, Ampere sm_86, RMSNorm GPU pilot). Skills + agents + V3 host refs.",
   "author": {
     "name": "Jadon Fox",
     "url": "https://github.com/Jadon-Fox"
@@ -15,6 +15,8 @@
     "gpu",
     "kernels",
     "max",
-    "evidence"
+    "evidence",
+    "rms-norm",
+    "ampere"
   ]
 }

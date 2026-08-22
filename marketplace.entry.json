@@ -1,6 +1,6 @@
 {
   "name": "mojo-cuda",
-  "description": "Mojo + CUDA + MLIR specialty coding profile for Grok Build (skill + implement/review/entry agents).",
+  "description": "Mojo 1.0 + CUDA + MLIR specialty coding profile v3 for Grok Build (max.gpu, Ampere sm_86, RMSNorm GPU pilot, skill + implement/review/entry agents).",
   "category": "development",
   "source": {
     "source": "local",
@@ -12,7 +12,9 @@
     "cuda",
     "mlir",
     "gpu",
-    "kernels"
+    "kernels",
+    "max",
+    "ampere"
   ],
   "author": "Jadon Fox"
 }
