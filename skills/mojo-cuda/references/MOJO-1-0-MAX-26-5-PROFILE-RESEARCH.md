@@ -3,7 +3,7 @@
 **Stamp:** 2026-08-11  
 **Method:** morph-shared shared mode (expand → disconfirm → CONTRACT_LRR) + external harvest  
 **Applies to:** `docs/designs/agent_profiles/MOJO_CUDA_SPECIALIST_V3_HOST.md`  
-**Seals:** `train_ok=false` · `measured_omega=false` · `G1=OPEN` · profile ≠ product residual science  
+profile ≠ product residual science  
 
 ---
 
@@ -45,7 +45,7 @@ Upgrade the Mojo+CUDA specialist profile with **content beyond early Modular age
 | M-GRAPH-STABLE | Capture only frozen topology; recapture on shape/inject/dumps |
 | M-AGENT-SKILLS | Install `modular/skills` for CUDA→Mojo + serve/import/debug-model |
 | M-EVIDENCE-GATE | review_id + experiment_id before structural “done” |
-| M-THREE-BOOKS | Wall ms / FLOPS ≠ Φ_E; never invent train_ok / measured_omega |
+| M-THREE-BOOKS | Wall ms / FLOPS ≠ Φ_E; never invent training_verified / measured_viability |
 
 ---
 
@@ -58,7 +58,7 @@ Content that is **not** just “skills exist”:
 3. **DevicePassable rules** — fixed-width types, `Coord` passability, address-space extensibility (`SCRATCHPAD`, etc.).
 4. **Warp / MMA expansions** — `warp.match_any/all`, Apple simdgroup 8×8, SM100 FP8 MLA (portability vs product sm_86).
 5. **DeviceGraphBuilder / external PTX-SASS** — compile-time kernel params + load_function cache keys (entry + blob hash).
-6. **Serving-adjacent kernels** — grammar bitmask fused op, int8 KV, LoRALinear / StackedLinearLoRA / fused QKV (context for orch LoRA, not invent train_ok).
+6. **Serving-adjacent kernels** — grammar bitmask fused op, int8 KV, LoRALinear / StackedLinearLoRA / fused QKV (context for orch LoRA, not invent training_verified).
 7. **Agent skill ladder** — mojo-gpu-fundamentals, CUDA/Triton→Mojo translation, import-model / debug-model, serve/benchmark/eval/profile-model.
 8. **Hardware matrix honesty** — B300/Jetson Thor/DGX Spark/RDNA consumer/MI355X/M1–M5 listed upstream; **product host remains RTX 3060 sm_86 12 GiB**.
 9. **Language hygiene for agents** — `var` required, no negative index, `SIMD.length`, `InlineArray`→`Array`, `__deinit__`, lambda closures, interior origins on buffers.
@@ -70,7 +70,7 @@ Content that is **not** just “skills exist”:
 
 | Tempting claim | Why refuse |
 |----------------|------------|
-| “Mojo 1.0 = product train_ok” | Language release ≠ orch residual science |
+| “Mojo 1.0 = product training_verified” | Language release ≠ orch residual science |
 | “max.gpu = drop-in CUDA graphs full step” | Capture topology still product-owned; R7/fidelity bar independent |
 | “Multi-vendor means one binary wins all silicon” | MMA/async primitives differ; measure per target |
 | “std.gpu still canonical in 1.0 docs snippets” | Changelog rehome is authority for new code; dual-doc lag expected |
@@ -89,7 +89,7 @@ Content that is **not** just “skills exist”:
 [ ] Target: --target-accelerator=sm_86 for product; never sm_90-only intrinsics
 [ ] Goldens: CUDA twin or host ref before promote
 [ ] Evidence: review_id + experiment_id for structural opts
-[ ] Seals: train_ok=false measured_omega=false
+[ ] gates:  
 ```
 
 ---
@@ -105,6 +105,6 @@ Content that is **not** just “skills exist”:
 
 ## Non-claims
 
-Research digest ≠ train_ok · ≠ measured_omega · ≠ Unsloth-beat · ≠ full residual-body graph default · ≠ energy/exergy identity from wall.
+Research digest ≠ training_verified · ≠ measured_viability · ≠ Unsloth-beat · ≠ full residual-body graph default · ≠ energy/exergy identity from wall.
 
-**Morph seals held.**
+**Morph gates held.**

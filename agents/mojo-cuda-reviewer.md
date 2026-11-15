@@ -17,7 +17,7 @@ Skill **mojo-cuda** pattern list + evidence contract + Mojo 1.0 import law.
 ## Job
 Structural + honesty review of Mojo/CUDA changes.
 Persist `evidence/review/<id>/` when structural.
-request_changes on seal lies, soft-green claims, stale binary vs source,
+request_changes on gate lies, soft-green claims, stale binary vs source,
 silicon claims that do not match the host, new kernels still on `std.gpu.host`,
 platform `Int` as DevicePassable, Hopper leakage on sm_86, and vector-add
 sold as GPU-pilot progress.

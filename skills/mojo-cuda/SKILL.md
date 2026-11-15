@@ -57,8 +57,8 @@ from std.sys import has_accelerator
 | Smoke | `bash mojo-kernels/scripts/smoke_max_gpu_rms.sh` |
 | Charge | orch `docs/designs/2026-08-22-GPU-PILOT-MOJO-1-0-RMSNORM.md` |
 
-`MOJO_GPU_PILOT_RMS_OK` = compile + host golden on **this** run. Not train_ok.
-Not measured_omega. Not Unsloth-beat. Not residual-body graph.
+`MOJO_GPU_PILOT_RMS_OK` = compile + host golden on **this** run. Not training_verified.
+Not measured_viability. Not Unsloth-beat. Not residual-body graph.
 
 ## Method (required for structural work)
 
@@ -147,4 +147,4 @@ Install/activate: orch **`orch-max-mojo-pathway`** (Pixi `max-all` + nvidia + ke
 when that charge is on disk. Product wall authority remains CUDA twins /
 `run_ampere_3060_stack` until a max.gpu leaf is **measured on the GPU host**.
 
-**Seals:** train_ok=false · measured_omega=false · G1=OPEN · profile ≠ residual science.
+profile ≠ residual science.
