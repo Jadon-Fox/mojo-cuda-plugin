@@ -20,9 +20,9 @@ Implement GPU kernels and host/launch wiring. TDD when adding behavior.
 New kernels: `max.gpu.host` + `std.gpu` thread ids; fixed-width DevicePassable;
 CUDA twin named. Product GPU pilot is batched RMSNorm, not vector-add.
 Structural opts need `evidence/review|experiment/<id>/`.
-Never invent train_ok, measured_omega, or parity without bar + measure.
+Never invent training_verified, measured_viability, or parity without bar + measure.
 Use host-runtime notes only when they match the machine; do not claim SM 8.0+
 occupancy on sm_75, or Hopper paths on sm_86.
 
 ## Output
-Plan (bottleneck + altitude) · files · verify command+exit · seals if applicable · risks.
+Plan (bottleneck + altitude) · files · verify command+exit · gates if applicable · risks.

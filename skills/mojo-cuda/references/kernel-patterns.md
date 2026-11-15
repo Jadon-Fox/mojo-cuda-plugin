@@ -34,7 +34,7 @@ from std.sys import has_accelerator
 | Platform `Int` as DevicePassable | `Int32` / `TileTensor` / SIMD |
 | Hopper TMA/WGMMA on sm_86 | Ampere-legal async / classic GEMM |
 | Vector-add as ENTRY_MOJO progress | RMSNorm / RoPE / residual / SDPA leaf |
-| Compile OK ⇒ train_ok | Golden + claim_class=UNMEASURED |
+| Compile OK ⇒ training_verified | Golden + claim_class=UNMEASURED |
 
 ## Review order
 
@@ -45,4 +45,4 @@ from std.sys import has_accelerator
 5. Register pressure
 6. Algorithmic fusion / TC shapes
 7. CUDA twin golden named
-8. Seals honest
+8. gates honest

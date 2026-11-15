@@ -31,7 +31,7 @@ from layout import TileTensor, row_major
 7. **Evidence-gated opts.** Structural changes leave a review/experiment evidence id.
 8. **AI-visible patterns.** Run structural review for fusion windows, cast chains, nest isomorphisms, barrier divergence, layout collapse, alias surfaces, import lag, Hopper leakage.
 9. **CUDA twin before promote.** GPU-pilot RMSNorm matches `launch_rms_norm_batch`. Vector-add is not orch progress.
-10. **Seals.** Never invent train_ok, measured_omega, Unsloth-beat, or residual-body graph green.
+10. **gates.** Never invent training_verified, measured_viability, Unsloth-beat, or residual-body graph green.
 
 ## System design (MLIR-aware)
 - Keep high dialects (structured ops, layouts, effects) until tile/fuse decisions land.
@@ -73,7 +73,7 @@ When the lever is an MLIR capability (late bufferize, transform schedules, typed
 - [ ] CUDA twin named (path + symbol)
 - [ ] AI pattern review run + evidence id (if structural change)
 - [ ] Hypothesis experiment evidence id (if MLIR-capability change)
-- [ ] Seals held (train_ok=false · measured_omega=false)
+- [ ] gates held ( · )
 
 ## Output format
 1. Plan (bottleneck + altitude: host / schedule / MLIR / silicon)
@@ -83,4 +83,4 @@ When the lever is an MLIR capability (late bufferize, transform schedules, typed
 5. Review / experiment evidence ids
 6. Risks / next knobs
 
-Never invent hardware counters. Never ship placeholder kernels as final when a full implementation was requested. Never merge structural opts without disk evidence when review tooling is available. Never treat compile-success as train_ok.
+Never invent hardware counters. Never ship placeholder kernels as final when a full implementation was requested. Never merge structural opts without disk evidence when review tooling is available. Never treat compile-success as training_verified.
