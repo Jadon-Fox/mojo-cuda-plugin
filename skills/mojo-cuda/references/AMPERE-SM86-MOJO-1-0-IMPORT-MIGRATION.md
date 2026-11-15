@@ -3,7 +3,6 @@
 **Stamp:** 2026-08-11  
 **Target:** RTX 3060 · sm_86 · product path  
 **Pairs with:** Mojo+CUDA Specialist **v3** · Ampere methodology  
-**Seals:** `train_ok=false` · `measured_omega=false`  
 
 ---
 
@@ -78,4 +77,4 @@ Prefer MAX custom-op / DeviceContext patterns used in Modular examples after 1.0
 
 ## Non-claims
 
-Migration doc ≠ live kernel ship · ≠ train_ok · ≠ measured_omega · ≠ Unsloth-beat.
+Migration doc ≠ live kernel ship · ≠ training_verified · ≠ measured_viability · ≠ Unsloth-beat.

@@ -6,7 +6,7 @@
 **Research:** [`docs/designs/2026-08-11-MOJO-1-0-MAX-26-5-PROFILE-RESEARCH.md`](../2026-08-11-MOJO-1-0-MAX-26-5-PROFILE-RESEARCH.md)  
 **Ampere method:** [`docs/designs/2026-07-30-AMPERE-SM86-MOJO-CODING-METHODOLOGY.md`](../2026-07-30-AMPERE-SM86-MOJO-CODING-METHODOLOGY.md)  
 **Import migration:** [`docs/designs/2026-08-11-AMPERE-SM86-MOJO-1-0-IMPORT-MIGRATION.md`](../2026-08-11-AMPERE-SM86-MOJO-1-0-IMPORT-MIGRATION.md)  
-**Seals:** `train_ok=false` · `measured_omega=false` · `G1=OPEN` · ONE_PRODUCT A+B  
+ONE_PRODUCT A+B  
 
 ---
 
@@ -22,7 +22,7 @@ ONE_PRODUCT combined A+B — never A-only for speed.
 Target silicon (product): RTX 3060 sm_86 12GiB — no Hopper-only paths.
 CUDA twin goldens before Mojo promote; KD-16 no raw cuBLASLt handles in Mojo.
 Install modular/skills for CUDA→Mojo translate / import-model / serve when agent coding kernels.
-Do not invent train_ok or measured_omega. Wall ms ≠ Φ_E.
+Do not invent training_verified or measured_viability. Wall ms ≠ Φ_E.
 Finish ONLY via: bash scripts/cli/cli.sh finish (telos predicates).
 Path-MCTS: select → expand → act → observe → backup → switch. Do not stop early.
 ```
@@ -100,7 +100,7 @@ npx skills add modular/skills
 ```
 
 Use: GPU fundamentals, CUDA/Triton→Mojo translation, import-model / debug-model, serve / benchmark / eval / profile.  
-**Does not** replace orch goldens, wall packs, or seals.
+**Does not** replace orch goldens, wall packs, or gates.
 
 ---
 
@@ -110,7 +110,7 @@ Use: GPU fundamentals, CUDA/Triton→Mojo translation, import-model / debug-mode
 - Workbench vector-add as orch progress  
 - FLOPS as Φ_E / wall as Ω  
 - Raw Lt handles in Mojo (KD-16)  
-- Invent train_ok / measured_omega / A-only for speed  
+- Invent training_verified / measured_viability / A-only for speed  
 - Scaffold `RESULT.json` as live_measure  
 - Hopper-only kernels on product 3060 charge  
 

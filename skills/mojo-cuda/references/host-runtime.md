@@ -14,7 +14,7 @@ Not required for the portable profile. Use when this machine matches.
 | Shared CUDA ABI | `…/artifacts/build_20260719/lib/*.so` |
 | ENTRY_C SSOT | `model_step_real` (weights / full step) |
 | ENTRY_MOJO | inject + product layer smoke dual-entry (CUDA `.so`, still 1.0b3 FFI until re-measured) |
-| Seals | train_ok=false · measured_omega=false · G1=OPEN · no Triton/Python progress |
+| gates |  · no Triton/Python progress |
 
 ## Dual host (Turing — historical ENTRY_MOJO)
 

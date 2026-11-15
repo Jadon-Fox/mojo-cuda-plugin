@@ -2,7 +2,7 @@
 
 **Stamp:** 2026-08-22 (glossary split)  
 **Hypothesis:** H-MAX-GPU-REHOME on a **product stage** (not vector-add).  
-**Seals:** train_ok=false · measured_omega=false · G1=OPEN · UNMEASURED until host smoke.
+UNMEASURED until host smoke.
 
 ## LCD (do not silent-rename)
 
@@ -12,7 +12,7 @@
 | **PRODUCT_RMSNORM_TWIN** | `MOJO_GPU_PILOT_RMS_TWIN_OK` | fused 1-block/row (optional `ORCH_RMS_FUSE=1`) — still not CUDA-buffer join |
 | **H-CUDA-TWIN** | not emitted | same buffers as `launch_rms_norm_batch` |
 
-`claim_class=compile_golden` on OK. Never `train_ok`.
+`claim_class=compile_golden` on OK. Never `training_verified`.
 
 ## Why RMSNorm
 
@@ -44,6 +44,6 @@ M=4 is **golden**, not 28-SM occupancy. Product silicon is **GA106 sm_86**, not 
 |--|--|
 | **Success** | `MOJO_GPU_PILOT_RMS_OK` · max_abs < 1e-5 · JSON `claim_class=compile_golden` |
 | **Abort** | no accelerator · import fail · golden fail · OOM · Hopper APIs on sm_86 |
-| **Non-claims** | train_ok · measured_omega · Unsloth-beat · wall · occupancy · Ω · Mythos |
+| **Non-claims** | training_verified · measured_viability · Unsloth-beat · wall · occupancy · Ω · Mythos |
 
 Fused APIs (documented): `from max.gpu.sync import barrier` + `stack_allocation[..., address_space=AddressSpace.SHARED]`. Not TMA / SharedMemBarrier.

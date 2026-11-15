@@ -16,7 +16,7 @@ Grok Build **specialty unit**: Mojo + CUDA + MLIR coding profile **v3**
 - Not a training orchestrator
 - Not product train/serve green by itself
 - Not a workbench vector-add as orch progress
-- Not `train_ok` / `measured_omega` / Unsloth-beat
+- Not `training_verified` / `measured_viability` / Unsloth-beat
 
 ## Install (local path)
 
@@ -45,7 +45,7 @@ cd /home/workspace/training_orchestrator
 bash mojo-kernels/scripts/smoke_max_gpu_rms.sh
 ```
 
-`MOJO_GPU_PILOT_RMS_OK` is a **compile+golden** token, not train_ok.
+`MOJO_GPU_PILOT_RMS_OK` is a **compile+golden** token, not training_verified.
 
 ## Codename / version
 

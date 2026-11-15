@@ -2,7 +2,6 @@
 
 **Stamp:** 2026-08-22  
 **Skills:** lcd-glossary-integrity · honest-prompt-rewrite · twinglass-lattice (scout; **fork unearned**)  
-**Seals:** `train_ok=false` · `measured_omega=false` · `G1=OPEN`
 
 ## Locked terms
 
@@ -26,10 +25,10 @@ Lattice: after this lock, two-pass vs fused are **specializations of different t
 | 127 | `mojo not on PATH` | n/a | env missing | anything GPU |
 | ≠0, `NO_ACCELERATOR` | no device | `UNMEASURED` | process saw no GPU | compile of kernels |
 | ≠0, `golden_fail` | `max_abs` > 1e-5 | `UNMEASURED` | compiled but numbers wrong | twin / wall |
-| **0** | **`MOJO_GPU_PILOT_RMS_OK`** | **`compile_golden`** | this-run compile + CPU golden, M=4 D=3072, atol 1e-5 | twin, wall, occupancy, train_ok, Ω |
-| (optional fuse, later) | `MOJO_GPU_PILOT_RMS_TWIN_OK` | `cuda_twin` | fused schedule + same buffers as CUDA | train_ok |
+| **0** | **`MOJO_GPU_PILOT_RMS_OK`** | **`compile_golden`** | this-run compile + CPU golden, M=4 D=3072, atol 1e-5 | twin, wall, occupancy, training_verified, Ω |
+| (optional fuse, later) | `MOJO_GPU_PILOT_RMS_TWIN_OK` | `cuda_twin` | fused schedule + same buffers as CUDA | training_verified |
 
-JSON schema `mojo_gpu_pilot_v1` on every path (ok or fail). `train_ok` always `false`. `measured_omega` always `false`. `G1` always `OPEN`. `twin_compared` stays `false` until CUDA buffers are joined.
+JSON schema `mojo_gpu_pilot_v1` on every path (ok or fail). `training_verified` always `false`. `measured_viability` always `false`. `primary_gate` always `OPEN`. `twin_compared` stays `false` until CUDA buffers are joined.
 
 ### Pass line you should see on 40-Runtime-Deps
 
@@ -61,7 +60,7 @@ MARKERS:
   M-PLANE-SUBSTRATE     kernel wall ≠ Mythos ≠ Ω
 WARRANTED_EVIDENCE: silicon table (fact card); CUDA twin source; Modular DeviceContext + barrier docs
 OPEN: CUDA twin join; H-RMS-SMEM measure; LLMVE residual co-emission (other plane)
-NON_CLAIMS: train_ok measured_omega G1 endpointAssumed feeds_omega category_grain
+NON_CLAIMS: training_verified measured_viability primary_gate endpointAssumed  category_grain
 ```
 
 Hypothesis A sensors are **not** this work. Do not promote RMSNorm golden to Mythos.
